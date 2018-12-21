@@ -1,11 +1,12 @@
 module.exports = {
+  pathPrefix: '/warizz.io',
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `warizz.io`,
+    author: `Warizz Yutanan`,
+    description: `All public info of a man named Warizz`,
+    siteUrl: `warizz.io`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `warizz`,
     },
   },
   plugins: [
