@@ -15,7 +15,7 @@ export default function BlogPostTemplate(props) {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <h1 style={{ marginBottom: '2em' }}>{post.frontmatter.title}</h1>
+      <h1 style={{ color: '#B71C1C' }}>{post.frontmatter.title}</h1>
       <p
         style={{
           ...scale(-1 / 5),

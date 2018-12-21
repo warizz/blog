@@ -16,6 +16,7 @@ function Layout(props) {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          fontSize: '3rem',
         }}
       >
         <Link

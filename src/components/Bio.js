@@ -27,12 +27,10 @@ function Bio() {
                 borderRadius: `100%`,
               }}
             />
-            {/* <p>
-              Written by <strong>{author}</strong> who lives and works in San Francisco building
-              useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>You should follow him on Twitter</a>
-            </p> */}
+            <p>
+              Personal website by <a href={`https://twitter.com/${social.twitter}`}>{author}</a>, a
+              developer who try to live a happy life
+            </p>
           </div>
         );
       }}
