@@ -2,6 +2,23 @@
 title: Positive Constructive Feedback
 date: 2018-12-22
 ---
+In [Mission To The Moon, 236th episode](https://soundcloud.com/missiontothemoon/ep-236-9-2561) somebody asked about 'direct feedback' which is very interesting because it can be use for both work and life. There are 4 types of it.
+- Negative and destructive
+- Negative and constructive
+- Positive and destructive
+- Positive and constructive
+
+Destructive is a feedback that only mean to make listeners feel bad, for example "You write bad code, stop doing it", this doesn't give any clues why it is bad or how to improve it. So constructive way is to give "what", "why" and "how".
+
+As we know that there are no benefits of negative destructive feedback (may be a little satisfaction to the giver) and receivers will also feel defeated or even get angry, so we should avoid it if possible. Even though we sometimes have to give a negative feedback even in a constructive way, we should carefully think about how to make the negative part softer.
+
+In life outside of work is a lot harder, especially family members or close friends, so many people (included me) keep their mouth shut to avoid the fight. So positive + constructive is a good way to do it.
+
+Let's try to solve this situation just to practice, if you found out that your partner didn't clean dishes properly (some still have stain), how will you give a positive constructive feedback? I can start with the positive "Hey, how nice of you clean all the dishes" then "but I think we have to change current dishwashing soap because it still leaves some mark on them" (ummm I don't think this is constructive, it just detour destructive) or try "Next time we finished our food, I think I will help you roughly wash dishes first so it will be easier when you come to finish them later, not leaving hard stain like this time" (constructive by using yourself as bait)
+
+I think giving good feedback can be practiced, the key is to keep in mind that we have to do it.
+
+***
 
 วันนี้ได้ฟัง [Mission To The Moon episode ที่ 236](https://soundcloud.com/missiontothemoon/ep-236-9-2561) มีคนถามเรื่อง direct feedback น่าสนใจดี เพราะมันจะนำไปใช้ได้ทั้งเรื่องงานและชีวิตประจำวัน สรุปได้คร่าวๆว่า มันมีอยู่ 4 แบบ
 
