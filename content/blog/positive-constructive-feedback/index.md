@@ -10,7 +10,7 @@ In [Mission To The Moon, 236th episode](https://soundcloud.com/missiontothemoon/
 
 Destructive is a feedback that only mean to make listeners feel bad, for example "You write bad code, stop doing it", this doesn't give any clues why it is bad or how to improve it. So constructive way is to give "what", "why" and "how".
 
-As we know that there are no benefits of negative destructive feedback (may be a little satisfaction to the giver) and receivers will also feel defeated or even get angry, so we should avoid it if possible. Even though we sometimes have to give a negative feedback even in a constructive way, we should carefully think about how to make the negative part softer.
+As we know that there are no benefits of negative destructive feedback (may be a little satisfaction to the giver) and receivers will also feel defeated or even get angry, so we should avoid it if possible. Even though we sometimes have to give a negative feedback even in a constructive way, we should carefully think about how to make the negative part softer. If you found out that it is impossible to give constructive feedback, it may be means that you only want to destroy the listeners and it is better to not speak it out.
 
 In life outside of work is a lot harder, especially family members or close friends, so many people (included me) keep their mouth shut to avoid the fight. So positive + constructive is a good way to do it.
 
@@ -29,7 +29,7 @@ I think giving good feedback can be practiced, the key is to keep in mind that w
 
 negative และ positive ก็คือการติและชม destructive ก็คือการตำหนิที่ไม่ได้เสนอแนะแนวทาง หรือช่วยเหลือผู้ฟังให้พัฒนาตัวเองขึ้นมาได้ เช่น ทีมลีดตำหนิลูกทีมว่า เขียนโค้ดแย่มาก โดยไม่ให้เหตุผล หรือวิธีการเขียนที่ดีกว่า ส่วน constructive ก็คือการ บอกลูกทีมว่า เขียนแบบนี้สิ มันดีกว่า เพราะอ่านง่าย และมี performance ที่ดีกว่า พร้อมให้ตัวอย่าง
 
-อย่างที่รู้กันว่า negative และ destructive นั้นนอกจากจะไม่ก่อให้เกิดประโยชน์กับใครแล้ว (อาจจะสะใจแก่ผู้พูด) ยังก่อผลลบแก่ผู้ฟังอีก เพราะฉะนั้นถ้าเป็นไปได้ก็ควรหลีกเลี่ยง และคิดเยอะๆ ก่อนพูดทุกครั้ง negative + constructive คิดว่า บางครั้งก็เลี่ยงไม่ได้ ถ้าจำเป็นต้องตำหนิจริงๆ ก็ต้องหาวิธีพูดให้นิ่มนวลที่สุด
+อย่างที่รู้กันว่า negative และ destructive นั้นนอกจากจะไม่ก่อให้เกิดประโยชน์กับใครแล้ว (อาจจะสะใจแก่ผู้พูด) ยังก่อผลลบแก่ผู้ฟังอีก เพราะฉะนั้นถ้าเป็นไปได้ก็ควรหลีกเลี่ยง และคิดเยอะๆ ก่อนพูดทุกครั้ง negative + constructive คิดว่า บางครั้งก็เลี่ยงไม่ได้ ถ้าจำเป็นต้องตำหนิจริงๆ ก็ต้องหาวิธีพูดให้นิ่มนวลที่สุด ถ้าพบว่าไม่สามารถคิด constructive feedback ก็แสดงว่า คุณอาจแค่ทำเพื่อความสะใจของตัวเองเท่านั้น และยกเลิกที่จะพูดออกไปเสีย
 
 การให้ feedback ในชีวิตประจำวันนั้นยากกว่าในที่ทำงานมาก เพราะถ้าเป็นคนในครอบครัว หรือแม้แต่เพื่อน เรายิ่งต้องระวังเรื่องการไปกระทบจิตใจคนฟัง คนจำนวนมาก(รวมถึงตัวผมเองด้วย) เลือกที่จะไม่เตือนหรือตำหนิในบางเรื่อง เพื่อหลีกเลี่ยงการพิพาท การให้ feedback ที่เป็น positive และ constructive จึงเป็นการแก้ปัญหาที่ดี
 
