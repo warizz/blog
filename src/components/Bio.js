@@ -28,7 +28,8 @@ function Bio() {
               }}
             />
             <p>
-              Personal website by <a href={`https://twitter.com/${social.twitter}`}>{author}</a>, a
+              Personal website by
+              <a href={`https://twitter.com/${social.twitter}`}>{author}</a>, a
               developer who try to live a happy life
             </p>
           </div>

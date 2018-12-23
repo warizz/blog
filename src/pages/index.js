@@ -14,7 +14,10 @@ function BlogIndex(props) {
 
   return (
     <Layout location={props.location} title={siteTitle}>
-      <SEO title="All posts" keywords={[`blog`, `javascript`, `react`, 'life']} />
+      <SEO
+        title="All posts"
+        keywords={[`blog`, `javascript`, `react`, 'life']}
+      />
 
       <Bio />
 
