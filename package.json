@@ -39,7 +39,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages --dist public --repo git@github.com:warizz/warizz.github.io.git --branch master",
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "lint:fix": "eslint --ext .js,.jsx --ignore-pattern public . --fix",
