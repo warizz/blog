@@ -10,7 +10,7 @@ List of good things I can think of for year 2018 in alphabetical order.
 
 - __Game__, [Hollow Knight](https://youtu.be/UAO2urG23S4). Solid game design (2D souls-like) great music and visual.
 
-- __Movie__, [Hereditary](https://en.wikipedia.org/wiki/Hereditary_%28film%29). The genre is horror which it do very good job combine with weird, shock and unpredictable moment make watching the movie is my best experience of 2018 so far. __WARNING__ don't watch trailer or read synopsis so you can fully experience feelings I described above.
+- __Movie__, [Hereditary](https://en.wikipedia.org/wiki/Hereditary_%28film%29). The genre is horror which it do very good job combine with weird, shock and unpredictable moment made watching the movie was my best movie experience of 2018 so far. __WARNING__ don't watch trailer or read synopsis so you can fully experience feelings I described above.
 
 - __Music band__, [Telex Telexs](https://open.spotify.com/artist/1BHYRsFqV0ON7RUFM9qF2Q?si=2uEhCALaRN2IoRYk41Bplw). Best synth-pop band in Thailand (I don't know much though). Record in Spotify said this is my most favorited band in 2018.
 
@@ -18,4 +18,4 @@ List of good things I can think of for year 2018 in alphabetical order.
 
 - __Trip__, [ABC trekking (Nepal)](https://photos.app.goo.gl/eQ8t8eVvBQPoZc2n8). 2nd time to Nepal (my first was EBC trekking). This time was better because I went there with my girl and it was super fun. I will never want to travel without her again.
 
-- __Word__, Focus. Simple but difficult to execute because we have so many distractions these days. I use this word to remind myself that don't give a shit about things that don't matter, set goals, prioritize and one step at a time.
+- __Word__, Focus. Simple but difficult to execute because we have so many distractions these days. I use this word to remind myself that don't give a shit about things that don't matter, set [goals](https://warizz.github.io/goals-2019/), prioritize and one step at a time.
