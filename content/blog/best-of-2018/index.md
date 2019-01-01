@@ -17,3 +17,5 @@ List of good things I can think of for year 2018 in alphabetical order.
 - __New item__, nothing. I barely bought anything new this year (clothes excluded) but I still put it this list just to brag about buying less.
 
 - __Trip__, [ABC trekking (Nepal)](https://photos.app.goo.gl/eQ8t8eVvBQPoZc2n8). 2nd time to Nepal (my first was EBC trekking). This time was better because I went there with my girl and it was super fun. I will never want to travel without her again.
+
+- __Word__, Focus. Simple but difficult to execute because we have so many distractions these days. I use this word to remind myself that don't give a shit about things that don't matter, set goals, prioritize and one step at a time.
