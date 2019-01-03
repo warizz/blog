@@ -18,6 +18,7 @@ I’m turning 35 next year, it passed half life already so I should step forward
 - __Lose weight__ — ideal is to be as lean as possible. The target is 65kg (currently 75). Yeah this leads to improvement of my climbing.
 - __More writing, more drawing__ — ~~100 articles, 3 days per 1 post seems not hard at all~~. 52 articles, 1 week a post. How about drawing? I’m planing to have some visual essays about my (wannabe) minimalistic life.
 - __Learn music__-I used to practice guitar but it never go anywhere. I’m taking it seriously this time by taking a course to learn its fundamental. The target instrument may be guitar, drum or piano.
+- __Buy less__. Buying less means less obligation to things means more focus to what is really matters in life (and of course, saving more money). Logging every purchases will help me consciously think of buying the next one (food excluded though, I don't mind spending on good meals)
 
 ### Editing history
 - __2019-01-01__ Reduce quantity of articles to 52. Instead of writing anything I'm gonna think of reader more that what're they gonna get from reading my post. It should not be just a personal blog that has no meaning to other people.
