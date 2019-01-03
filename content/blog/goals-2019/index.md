@@ -22,3 +22,4 @@ I’m turning 35 next year, it passed half life already so I should step forward
 
 ### Editing history
 - __2019-01-01__ Reduce quantity of articles to 52. Instead of writing anything I'm gonna think of reader more that what're they gonna get from reading my post. It should not be just a personal blog that has no meaning to other people.
+- __2019-01-03__ Add "Buy less"
