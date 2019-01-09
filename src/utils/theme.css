@@ -1,4 +1,24 @@
 /**
+ * Custom
+ */
+
+.share-buttons {
+  display: flex;
+  align-items: center;
+  margin: 5em 0 1em 0;
+  justify-content: flex-end;
+}
+
+.share-buttons > * {
+  margin-right: .5em;
+  box-sizing: border-box;
+}
+
+.share-buttons > div[role=button] {
+  cursor: pointer;
+}
+
+/**
  * Based on copypasta from Remy Bach and Sarah Drasner
  */
 code[class*="language-"],
