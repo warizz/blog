@@ -1,6 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon,
+} from 'react-share';
 
 import Bio from '../components/Bio';
 import Layout from '../components/Layout';
@@ -27,11 +33,31 @@ export default function BlogPostTemplate(props) {
         {post.frontmatter.date}
       </p>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+      <div className="share-buttons">
+        <span>Share</span>
+
+        <TwitterShareButton
+          title={post.frontmatter.title}
+          url={props.location.href}
+        >
+          <TwitterIcon size={30} round />
+        </TwitterShareButton>
+
+        <FacebookShareButton
+          quote={post.frontmatter.title}
+          url={props.location.href}
+        >
+          <FacebookIcon size={30} round />
+        </FacebookShareButton>
+      </div>
+
       <hr
         style={{
           marginBottom: rhythm(1),
         }}
       />
+
       <Bio />
 
       <ul
