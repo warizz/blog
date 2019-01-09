@@ -1,8 +1,9 @@
 ---
-title: Reading Lodash's code part 1
+title: "Reading other people's code episode 1: _.get"
+date: 2019-01-09
 ---
 
-I will start with [`_.get`](https://lodash.com/docs/4.17.11#get) which I used most often compare to all Lodash's functions.
+I will begin this series with [`_.get`](https://lodash.com/docs/4.17.11#get) which I used most often compare to all Lodash's functions.
 
 This is entire code of the function.
 ```js
@@ -156,9 +157,9 @@ var stringToPath = memoizeCapped(function(string) {
   return result;
 });
 ```
-After a little exploration of `memoizeCapped` I decided to not go deeper into into it but just to note that it use for caching a function.
+After a little exploration of `memoizeCapped` I decided to not go deeper into it but just to note that it use for caching a function.
 
-First `if` statement is checking if first character is `.` or not. I do not need to find that what `charCode` number 46 is because it was put as a comment behind the statement. Awesome!
+First `if` statement is checking whether first character is `.` or not. I do not need to find that what `charCode` number 46 is because it was put as a comment behind the statement. Awesome!
 
 Then there is [`string.replace()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace).
 
@@ -187,3 +188,90 @@ So in replacer function, if `quote` has no value it will be returned as `number`
 ```js
 result.push(quote ? subString.replace(reEscapeChar, '$1') : (number || match));
 ```
+
+```js
+/** Used to match backslashes in property paths. */
+var reEscapeChar = /\\(\\)?/g;
+```
+
+The statement `subString.replace(reEscapeChar, '$1')` is removing `\` from `subString`. Then it return the `result` value that will always be an array.
+
+Now to back to `baseGet()`. Statement `path = castPath(path, object);` is to convert input `path` to an `Array<string>`. Next statement is `while` loop to get value of `object` from `path`.
+
+```js
+// baseGet
+var index = 0,
+    length = path.length;
+
+while (object != null && index < length) {
+  object = object[toKey(path[index++])];
+}
+```
+Inside `toKey()`, the return statement is interesting.
+
+```js
+/**
+ * Converts `value` to a string key if it's not a string or symbol.
+ *
+ * @private
+ * @param {*} value The value to inspect.
+ * @returns {string|symbol} Returns the key.
+ */
+function toKey(value) {
+  if (typeof value == 'string' || isSymbol(value)) {
+    return value;
+  }
+  var result = (value + '');
+  return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
+}
+```
+- Turn value to string using `+ ''` but if value is `-0` then `-0 + ''` will be `'0'`.
+- Check if `result` is `0` (number or string) and check if value is `-0` or not.
+- If yes, return `-0`. I couldn't figure out why it has to check the value because `object[0] === object[-0]`
+
+```js
+// Declaration of INFINITY
+var INFINITY = 1 / 0,
+// return of `toKey`
+return (result == '0' && (1 / value) == -INFINITY) ? '-0' : result;
+```
+
+For example, if we give `object` and `path`
+```js
+var object = {
+  a: {
+    b: {
+      c: 'This is it'
+    }
+  }
+}
+var path = ['a', 'b', 'c']
+```
+1st iteration, value of `object` will be `{b:{c:{'This is it'}}}`.
+2nd will be `{c:{'This is it'}}`.
+And the last one will be `'This is it'`.
+
+In the `return` of `baseGet()`
+```js
+return (index && index == length) ? object : undefined;
+```
+
+`(index && index == length)` is checking if the iteration is valid. If yes, it return `object` otherwise return `undefined`
+
+Now get back to `get()` (finally!). The last statement is pretty straightforward.
+```js
+return result === undefined ? defaultValue : result;
+```
+
+<div style="margin:1em 0;width:100%;font-size:24px;font-weight:bold;text-align:center">...</div>
+
+Things I learned from reading `_.get`
+- Usages of [JSDoc](http://usejsdoc.org/), which is very useful for readers of a function if you write them well.
+- Using `== null` to check `null` and `undefined`.
+- Simple but helpful comment in `if (string.charCodeAt(0) === 46 /* . */) {`.
+- Usages of [`string.replace`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+  - Using replacer function.
+  - Using `$1`.
+- Usefulness of [Regexper](https://regexper.com/).
+- `-0 + '' === '0'`. [demo](https://jsfiddle.net/Warizz/1p62jLkm/14/) <script async src="//jsfiddle.net/Warizz/1p62jLkm/8/embed/js,result/dark/"></script>
+- `0 === -0`(in JS). [demo](https://jsfiddle.net/Warizz/t9cw0x6L/5/), [Are +0 and -0 the same?](https://stackoverflow.com/questions/7223359/are-0-and-0-the-same)
