@@ -1,6 +1,7 @@
 ---
 title: Cleaner way to compose components
 date: 2019-01-03
+tldr: "Use \"reduceRight\""
 ---
 
 I often found components were exported like this which look very confusing.

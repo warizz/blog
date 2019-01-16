@@ -1,9 +1,8 @@
 ---
-title: On measuring work
+title: Working life metrics
 date: 2018-12-13
+tldr: "\"Meaningfulness\" and \"efficiency\""
 ---
-
-tl;dr __efficiency__ and __meaningfulness__.
 
 ## Efficiency
 There are 2 factors for evaluation, __time__ and __money__. Easiest way to improve is growing the value of money/time.

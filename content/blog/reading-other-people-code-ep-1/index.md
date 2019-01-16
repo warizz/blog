@@ -1,6 +1,7 @@
 ---
 title: "Reading other people's code episode 1: _.get"
 date: 2019-01-09
+tldr: "Lodash's get() is complex compare to its simple API."
 ---
 
 I will begin this series with [`_.get`](https://lodash.com/docs/4.17.11#get) which I used most often compare to all Lodash's functions.

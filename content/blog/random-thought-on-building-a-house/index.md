@@ -1,6 +1,7 @@
 ---
 title: 'Random thought: on building a house'
 date: 2018-12-20
+tldr: "I have plan for building another house in the next 10 years, for that long period, I could become an architecture if I start learning now."
 ---
 Even though having a condominium is the best answer right now because of work place and short commute time but the dream of owning a house that has the design I like is still exist. I never think of living in a crowded city the whole life anyway. Roughly plan is after I paid all the mortgage — estimation is 10 to 15 years — I will have a house outside of town.
 

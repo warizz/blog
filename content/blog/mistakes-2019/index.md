@@ -1,5 +1,5 @@
 ---
-title: Mistakes in 2019
+title: "Mistakes (2019)"
 date: 2019-01-01
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Positive Constructive Feedback
 date: 2018-12-22
+tldr: "Giving compliment and improvement advice is the best feedback."
 ---
 In [Mission To The Moon, 236th episode](https://soundcloud.com/missiontothemoon/ep-236-9-2561) somebody asked about 'direct feedback' which is very interesting because it can be use for both work and life. There are 4 types of it.
 - Negative and destructive
