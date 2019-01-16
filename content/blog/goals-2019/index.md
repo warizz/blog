@@ -1,12 +1,12 @@
 ---
-title: 'Goals: 2019'
+title: 'Goals (2019)'
 date: 2018-12-14
 ---
 
 I’m turning 35 next year, it passed half life already so I should step forward carefully. Pick what's really matters and prioritize them, be more focus.
 
 ## Work
-- Should be improved based on [my metrics](http://localhost:8000/on-measuring-work/).
+- Should be improved based on [my metrics](/working-life-metrics).
 - Learn `Go` — personal interested, Its philosophy feels minimalistic to me.
 - Learn `Kubernetes` — this can improve my workflow when we have so many projects working together these days.
 - Learn `data science `— I think programming world going toward this way, building data-based machine to help us work better.

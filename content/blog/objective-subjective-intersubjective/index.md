@@ -1,8 +1,8 @@
 ---
 title: Objective, Subjective and Intersubjective
 date: 2018-12-25
+tldr: "Objective is a fact, Subjective is an opinion and Intersubjective is an opinion that more than one person are agree upon."
 ---
-tl;dr. Objective is a fact, Subjective is an opinion and Intersubjective is an opinion that more than one person are agree upon.
 
 While listening to [Sapiens : a brief history of humankind](https://www.audible.com/pd/Sapiens-Audiobook/B0741G911Q); There is no justice in history, I heard of the word "Intersubjective" which is new to me. So I do some research.
 

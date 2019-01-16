@@ -1,6 +1,7 @@
 ---
 title: 'Working with legacy code: environment variables'
 date: 2018-12-12
+tldr: "I'm measuring my work by meaningfulness and efficiency"
 ---
 
 Hard-coded environment variables make deployment to another environment very hard because we have to look into the code to find out where are all the conditions. It is also not secure because we have to put some API key into the code.

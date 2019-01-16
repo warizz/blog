@@ -1,6 +1,7 @@
 ---
-title: 'On dealing with failures'
+title: 'Dealing with failures'
 date: 2018-12-18
+tldr: "Note it down, find the root cause and have preventive plan."
 ---
 
 Failure is a good thing if you handle it well.

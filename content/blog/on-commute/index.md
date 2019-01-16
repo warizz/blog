@@ -1,6 +1,7 @@
 ---
-title: 'On commute'
+title: 'What to do during commute'
 date: 2018-12-16
+tldr: "I have listened a lot during commute"
 ---
 
 Listening is the best thing I can think of right now while I’m on commute. Podcast, audio book (Youtube sometimes but annoying when you must turn on the screen while playing it) have lots of good content to listen.

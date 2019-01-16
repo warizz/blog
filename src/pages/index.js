@@ -35,7 +35,7 @@ function BlogIndex(props) {
               </Link>
             </h3>
             <small>{node.frontmatter.date}</small>
-            <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+            <p dangerouslySetInnerHTML={{ __html: node.frontmatter.tldr }} />
           </div>
         );
       })}
@@ -60,13 +60,14 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          excerpt
+          excerpt(truncate: true)
           fields {
             slug
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            tldr
           }
         }
       }
