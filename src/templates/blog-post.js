@@ -13,15 +13,27 @@ import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
 
+const LANG_MAP = {
+  en: 'English',
+  th: 'ภาษาไทย',
+};
+
 export default function BlogPostTemplate(props) {
   const post = props.data.markdownRemark;
   const siteTitle = props.data.site.siteMetadata.title;
   const { previous, next } = props.pageContext;
+  const lang = post.frontmatter.lang || 'en';
+  const langs =
+    (post.frontmatter.langs &&
+      post.frontmatter.langs.filter(l => l !== lang)) ||
+    [];
 
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
+
       <h1 style={{ color: '#B71C1C' }}>{post.frontmatter.title}</h1>
+
       <p
         style={{
           ...scale(-1 / 5),
@@ -32,6 +44,29 @@ export default function BlogPostTemplate(props) {
       >
         {post.frontmatter.date}
       </p>
+
+      {langs.length > 0 && (
+        <p>
+          <i>
+            This article is available in&nbsp;
+            {langs.map(l => {
+              let url = post.fields.slug;
+              if (lang === 'en') {
+                url += l + '/';
+              } else {
+                url = url.match(/^\/.*?\//).pop();
+              }
+              return (
+                <a key={l} href={url}>
+                  {LANG_MAP[l]}
+                </a>
+              );
+            })}
+            {'.'}
+          </i>
+        </p>
+      )}
+
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
       <div className="share-buttons">
@@ -105,10 +140,15 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
+      fields {
+        slug
+      }
       html
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        lang
+        langs
       }
     }
   }
