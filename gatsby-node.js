@@ -21,6 +21,7 @@ exports.createPages = ({ graphql, actions }) => {
                   }
                   frontmatter {
                     title
+                    lang
                   }
                 }
               }
@@ -37,9 +38,37 @@ exports.createPages = ({ graphql, actions }) => {
         const posts = result.data.allMarkdownRemark.edges;
 
         posts.forEach((post, index) => {
-          const previous =
-            index === posts.length - 1 ? null : posts[index + 1].node;
-          const next = index === 0 ? null : posts[index - 1].node;
+          let previous = null;
+          let prevPostIndex = index + 1;
+          if (!posts.length - 1 && prevPostIndex !== posts.length) {
+            while (!previous) {
+              const _post = posts[prevPostIndex].node;
+              if (
+                !_post.frontmatter
+                  .lang /* empty means default, only default lang display on listing page */
+              ) {
+                previous = _post;
+              } else {
+                prevPostIndex += 1;
+              }
+            }
+          }
+
+          let next = null;
+          let nextPostIndex = index - 1;
+          if (index !== 0) {
+            while (!next) {
+              const _post = posts[nextPostIndex].node;
+              if (
+                !_post.frontmatter
+                  .lang /* empty means default, only default lang display on listing page */
+              ) {
+                next = _post;
+              } else {
+                nextPostIndex -= 1;
+              }
+            }
+          }
 
           createPage({
             path: post.node.fields.slug,

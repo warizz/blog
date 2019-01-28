@@ -7,6 +7,8 @@ import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import { rhythm } from '../utils/typography';
 
+const DEFAULT_LANG = 'en';
+
 function BlogIndex(props) {
   const { data } = props;
   const siteTitle = data.site.siteMetadata.title;
@@ -21,24 +23,29 @@ function BlogIndex(props) {
 
       <Bio />
 
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug;
-        return (
-          <div key={node.fields.slug}>
-            <h3
-              style={{
-                marginBottom: rhythm(1 / 4),
-              }}
-            >
-              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                {title}
-              </Link>
-            </h3>
-            <small>{node.frontmatter.date}</small>
-            <p dangerouslySetInnerHTML={{ __html: node.frontmatter.tldr }} />
-          </div>
-        );
-      })}
+      {posts
+        .filter(
+          ({ node }) =>
+            !node.frontmatter.lang || node.frontmatter.lang === DEFAULT_LANG,
+        )
+        .map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug;
+          return (
+            <div key={node.fields.slug}>
+              <h3
+                style={{
+                  marginBottom: rhythm(1 / 4),
+                }}
+              >
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  {title}
+                </Link>
+              </h3>
+              <small>{node.frontmatter.date}</small>
+              <p dangerouslySetInnerHTML={{ __html: node.frontmatter.tldr }} />
+            </div>
+          );
+        })}
     </Layout>
   );
 }
@@ -68,6 +75,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             tldr
+            lang
           }
         }
       }
