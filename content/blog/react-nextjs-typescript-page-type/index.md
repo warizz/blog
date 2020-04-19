@@ -4,7 +4,7 @@ date: 2020-04-19
 tldr: It is "NextPage"
 ---
 
-This code comes from [NextJs' documentation](https://nextjs.org/learn/excel/typescript/page-types) and still valid for latest stable [`nextjs` package](https://www.npmjs.com/package/next)
+This code comes from [NextJs' documentation](https://nextjs.org/learn/excel/typescript/page-types) and still valid for latest stable [`next` package](https://www.npmjs.com/package/next)
 
 ```tsx
 import { NextPage } from 'next';
