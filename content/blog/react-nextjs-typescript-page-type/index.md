@@ -1,7 +1,7 @@
 ---
-title: React NextJs and Typescript - What is correct type for a page
+title: 'React NextJs and Typescript: What is correct type for a page'
 date: 2020-04-19
-tldr: NextPage<PropsFromGetInitialProps>
+tldr: It is "NextPage"
 ---
 
 This code comes from [NextJs' documentation](https://nextjs.org/learn/excel/typescript/page-types) and still valid for latest stable [`nextjs` package](https://www.npmjs.com/package/next)
