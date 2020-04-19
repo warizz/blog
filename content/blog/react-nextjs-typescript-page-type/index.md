@@ -1,5 +1,5 @@
 ---
-title: 'React NextJs and Typescript: What is correct type for a page'
+title: 'React, NextJs and Typescript: What is correct type for a page'
 date: 2020-04-19
 tldr: It is "NextPage"
 ---
