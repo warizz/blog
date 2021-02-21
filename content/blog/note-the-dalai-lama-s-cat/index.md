@@ -1,5 +1,5 @@
 ---
-title: The Dalai Lama's Cat - Warizz.IO
+title: The Dalai Lama's Cat
 date: 2021-02-21
 tldr: 'we share the same two basic wishes: the wish to enjoy happiness and the wish to avoid suffering .'
 ---
