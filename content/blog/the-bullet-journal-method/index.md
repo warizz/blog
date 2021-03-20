@@ -16,7 +16,7 @@ I have been doing BuJo for 3 months now and the main priority still is making it
 
 ---
 
-## Notes from reading the book
+## My highlights from reading the book
 
 ### I: The Preparation
 
